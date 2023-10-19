@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title> Alert Page </title>
+	
+	<script type='text/javascript'>
+	
+	function myPrompt()
+	{
+	
+		var person = prompt('Please enter your name', 'name');
+		
+		if (person != ''){
+		
+			document.getElementById('test').innerHTML = 
+			'Hello ' + person + '! How are you today!';
+		
+		}
+		
+		else
+		{
+			alert('Hey! No input');
+		}
+	}
+	
+	
+	
+	
+	</script>
+
+</head>
+
+<body>
+
+<p> JavaScript Prompt Box</p>
+
+<button onclick='myPrompt()'> Click me </button>
+
+<!--  <input id='mathInput' type='number'/> <button onclick='myPrompt()'> Multiply x 5 </button> -->
+
+<p id='test'></p>
+
+
+</body>
+
+</html>
