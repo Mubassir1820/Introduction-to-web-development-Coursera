@@ -3,3 +3,7 @@ body {
 	background-image: url('cs2.jpg');
 	background-size: cover;
 }
+#msg2 {
+	color: peru;
+	font-family: Cursive;
+}
