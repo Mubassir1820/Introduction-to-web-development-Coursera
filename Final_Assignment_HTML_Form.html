@@ -11,34 +11,61 @@
 
 <body>
 
-<h1>CS2 Roster Application Form</h1>
 
 <Form>
-	First name:
-	<input type='text' id='fname' name='fname' onblur='validateFirstName();'><br>
-	Last name:
-	<input type='text' id='lname' name='lname' onblur='validateLastName();'> <span id='msg2'></span><br>
-	Date of Birth:
-	<input type='Date' id='birthday' name='birthday'><br>
-	Profile Link:
-	<input type='text' id='link' name='link'><br>
-	IGN:
-	<input type='text' id='ign' name='ign'><br>
-	Role:<br>
+
+	<table border='0'>
+	<tr>
+	<td><h1>CS2 Roster Application Form</h1></td>
+	</tr>
+	<tr>
+	<td>First name:</td>
+	<td> <input type='text' id='fname' name='fname' onblur='validateFirstName();'></td> <br>
+	</tr>
+	<tr>
+	<td>Last name:</td>
+	<td><input type='text' id='lname' name='lname' onblur='validateLastName();'> <span id='msg2'></span></td><br>
+	</tr>
+	<tr>
+	<td>Date of Birth:</td>
+	<td><input type='Date' id='birthday' name='birthday'></td><br>
+	</tr>
+	<tr>
+	<td>Profile Link:</td>
+	<td><input type='text' id='link' name='link'></td><br>
+	</tr>
+	<tr>
+	<td>IGN:</td>
+	<td><input type='text' id='ign' name='ign'></td><br>
+	</tr>
+	<tr>
+	<td>Role:</td>
+	<td>
 	<input type='radio' name='role' value='entryfragger'>Entry Fragger<br>
 	<input type='radio' name='role' value='lurker'>Lurker<br>
-	<input type='radio' name='role' value='awper'>Awper<br>
-	Services you play on:<br>
+	<input type='radio' name='role' value='awper'>Awper</td><br>
+	</tr>
+	<tr>
+	<td>Services you play on:</td>
+	<td>
 	<input type='checkbox' name='platform' value='MM'>MM<br>
 	<input type='checkbox' name='platform' value='faceit'>FACEIT<br>
-	<input type='checkbox' name='platform' value='esea'>ESEA<br>
-	FACEIT/ESEA level:
-	<input type='number' name='level' min='1' max='10'><br>
-	ELO:
-	<input type='number' name='level' min='1'><br>
-	Security Query(Pick a color):
-	<input type='color' name='favcolor'><br>
-	<button onclick=''>Submit</button>
+	<input type='checkbox' name='platform' value='esea'>ESEA</td><br>
+	</tr>
+	<tr>
+	<td>FACEIT/ESEA level:</td>
+	<td><input type='number' name='level' min='1' max='10'></td><br>
+	</tr>
+	<tr>
+	<td>ELO:</td>
+	<td><input type='number' name='level' min='1'></td><br>
+	</tr>
+	<tr>
+	<td>Security Query(Pick a color):</td>
+	<td><input type='color' name='favcolor'></td><br>
+	</tr>
+	<td colspan='3'><button onclick=''>Submit</button></td>
+	</table>
 	
 </Form
 
