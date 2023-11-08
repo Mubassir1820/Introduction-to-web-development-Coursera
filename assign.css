@@ -2,8 +2,18 @@ body {
 	/*background: linear-gradient(to right, RoyalBlue, DodgerBlue);*/
 	background-image: url('cs2.jpg');
 	background-size: cover;
+	font-size: 100%;
 }
 #msg2 {
 	color: peru;
 	font-family: Cursive;
+}
+.form-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+Form {
+	width: 50%;
 }
