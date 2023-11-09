@@ -5,7 +5,7 @@ body {
 	font-size: 100%;
 }
 #msg2 {
-	color: peru;
+	color: white;
 	font-family: Cursive;
 }
 .form-container{
@@ -16,6 +16,7 @@ body {
 }
 Form {
 	width: 50%;
+	min-height: 100vh;
 }
 
 table {
@@ -25,12 +26,7 @@ table {
 	font-size: 120%;
 }
 td {
-    border: 0px solid #ddd; /* Add borders to cells */
+    border: 0px solid white; /* Add borders to cells */
     padding: 8px; /* Add padding to cells */
     text-align: left; /* Adjust text alignment */
-}
-
-th {
-    background-color: #4CAF50; /* Set background color for header cells */
-    color: white; /* Set text color for header cells */
 }
